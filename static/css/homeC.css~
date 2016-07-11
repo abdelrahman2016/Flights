@@ -1,0 +1,293 @@
+
+
+
+body .contentpagewrapper {
+    background-color: #FFF;
+    min-height: 600px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+}
+body{
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+a{
+   text-decoration:none;
+   color:#06033a;
+}
+
+.nav{
+background-color:#ffb429;
+height:70;
+
+/*display:inline-block;
+*/
+/*position: fixed;
+top:10px;
+left:50%;
+margin-left:-254px;
+*/}
+#logo{
+width:150;
+height:58;
+
+}
+li {
+    display: inline;
+    border: 2px solid #000000;
+    font-family: Futura, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px 5px;
+    background-color: #ffb429;
+}
+
+
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #666;
+}
+
+html {
+       box-sizing: border-box;
+      font-size: 10px;
+    font-family: sans-serif;
+}
+
+/*.header-wrapper {
+    top: -10px;
+}
+.header-wrapper {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    z-index: 30000;
+}
+#header {
+    background: transparent linear-gradient(#FFC233, #FFB300) repeat scroll 0% 0%;
+    max-width: 1164px;
+    min-height: 90px;
+    position: relative;
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+#header #logo {
+    margin: 28px 0px 0px 23px;
+    position: relative;
+    z-index: 1;
+    color: #006;
+}
+.pull-left {
+    float: left !important;
+}
+.sr-only, body .skiplinks ul li a, .cards label > input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0px;
+    overflow: hidden;
+    clip: rect(0px, 0px, 0px, 0px);
+    border: 0px none;
+}
+#header #logo .logo-topline {
+    display: block;
+    line-height: normal;
+    width: 100%;
+}
+#header #logo .logo-topline .li-2x {
+    font-size: 34px;
+    width: 100%;
+}
+.li-2x {
+    font-size: 2em;
+}
+.li, #lh-app-dbr .glyphicon.glyphicon-remove, .lh-app-dbr .glyphicon.glyphicon-remove, #lh-app-dbr .glyphicon.glyphicon-ok, .lh-app-dbr .glyphicon.glyphicon-ok, #lh-app-dbr .slider.dbr .slick-prev::before, #lh-app-dbr .slider.dbr .slick-next::before, .lh-app-dbr .slider.dbr .slick-prev::before, .lh-app-dbr .slider.dbr .slick-next::before, #lh-app-dbr .summery .summery-customs span.line.customs-checkbox, #lh-app-dbr .summery .summery-customs div.line.tick-after, .lh-app-dbr .summery .summery-customs span.line.customs-checkbox, .lh-app-dbr .summery .summery-customs div.line.tick-after {
+    display: inline-block;
+    font-family: "lh-iconfont";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+
+*/
+
+
+
+/*
+.flightmanager {
+    padding: 0px;
+    top: 110px;
+    width: 330px;
+    right: 10px;
+}
+.flightmanager {
+    left: auto;
+    display: table;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+    top: 120px;
+    width: 33.3333%;
+    z-index: 2;
+}
+.flightmanager .tabs {
+    background: transparent linear-gradient(rgba(238, 238, 238, 0.8) 0%, #EBEBEB 100%) repeat scroll 0% 0%;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
+    display: table-cell;
+    vertical-align: top;
+    width: 87px;
+}
+
+.flightmanager .nav-tabs {
+    border-bottom: 0px none;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.flightmanager .tab-contents {
+    background-color: #FFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
+    display: table-cell;
+    vertical-align: top;
+}
+
+.flightmanager .tab-contents .tab-pane.active {
+    display: block;
+    min-height: 400px;
+}
+.flightmanager .tab-contents .tab-pane {
+    display: none;
+    padding: 10px 10px 5px;
+}
+h1, .h1 {
+    font-size: 30px;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}   
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0px;
+}
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.col-xs-12 {
+    width: 100%;
+    position: relative;
+padding-left: 10px;
+padding-right: 10px;
+min-height: 1px;
+ float: left;
+}
+
+.flightmanager .tab-contents .tab-pane .lhfa-flight-type label.btn-secondary {
+    min-width: 0px;
+}
+.flightmanager .tab-contents .tab-pane .lhfa-flight-type label {
+    display: block;
+    float: left;
+    line-height: 18px;
+    padding-left: 0px;
+    text-align: center;
+    padding-right: 0px;
+    margin: auto;
+    width: 50%;
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 0px 0px;
+    line-height: normal;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0px;
+}
+[data-toggle="buttons"] > .btn input[type="radio"], .content [data-toggle="buttons"] > a.bluebutton_witharrow input[type="radio"], .video .video-wrapper .video-controls .menu-row[data-toggle="buttons"] > button[data-triggers="toogle"] input[type="radio"], .video .video-wrapper .video-controls .menu-row > .volume-container [data-toggle="buttons"] > button input[type="radio"], .video .video-wrapper .video-controls .menu-row > .box-right .captions-button[data-toggle="buttons"] > button input[type="radio"], .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen[data-toggle="buttons"] > button input[type="radio"], [data-toggle="buttons"] > .btn input[type="checkbox"], .content [data-toggle="buttons"] > a.bluebutton_witharrow input[type="checkbox"], .video .video-wrapper .video-controls .menu-row[data-toggle="buttons"] > button[data-triggers="toogle"] input[type="checkbox"], .video .video-wrapper .video-controls .menu-row > .volume-container [data-toggle="buttons"] > button input[type="checkbox"], .video .video-wrapper .video-controls .menu-row > .box-right .captions-button[data-toggle="buttons"] > button input[type="checkbox"], .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen[data-toggle="buttons"] > button input[type="checkbox"], [data-toggle="buttons"] > .btn-group > .btn input[type="radio"], .content [data-toggle="buttons"] > .btn-group > a.bluebutton_witharrow input[type="radio"], .video .video-wrapper .video-controls [data-toggle="buttons"] > .menu-row.btn-group > button[data-triggers="toogle"] input[type="radio"], .video .video-wrapper .video-controls .menu-row > .volume-container [data-toggle="buttons"] > .btn-group > button input[type="radio"], .video .video-wrapper .video-controls .menu-row > .box-right [data-toggle="buttons"] > .captions-button.btn-group > button input[type="radio"], .video .video-wrapper .video-controls .menu-row > .box-right [data-toggle="buttons"] > .fullscreen.btn-group > button input[type="radio"], [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"], .content [data-toggle="buttons"] > .btn-group > a.bluebutton_witharrow input[type="checkbox"], .video .video-wrapper .video-controls [data-toggle="buttons"] > .menu-row.btn-group > button[data-triggers="toogle"] input[type="checkbox"], .video .video-wrapper .video-controls .menu-row > .volume-container [data-toggle="buttons"] > .btn-group > button input[type="checkbox"], .video .video-wrapper .video-controls .menu-row > .box-right [data-toggle="buttons"] > .captions-button.btn-group > button input[type="checkbox"], .video .video-wrapper .video-controls .menu-row > .box-right [data-toggle="buttons"] > .fullscreen.btn-group > button input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0px, 0px, 0px, 0px);
+    pointer-events: none;
+}
+.flightmanager .tab-contents .tab-pane .lhfa-flight-type {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.flightmanager .tab-contents .tab-pane .lhfa-flight-type label.btn-secondary.active {
+    background-color: #F5F5F5;
+    border-color: #EBEBEB;
+    box-shadow: none;
+    color: #666;
+}
+.flightmanager .tab-contents .tab-pane .lhfa-flight-type label.btn-secondary {
+    min-width: 0px;
+}
+
+.btn-group > .btn:first-child, .content .btn-group > a.bluebutton_witharrow:first-child, .video .video-wrapper .video-controls .menu-row.btn-group > button[data-triggers="toogle"]:first-child, .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group > button:first-child, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group > button:first-child, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group > button:first-child {
+    margin-left: 0px;
+}
+.btn-group > .btn:hover, .content .btn-group > a.bluebutton_witharrow:hover, .video .video-wrapper .video-controls .menu-row.btn-group > button[data-triggers="toogle"]:hover, .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group > button:hover, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group > button:hover, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group > button:hover, .btn-group > .btn:focus, .content .btn-group > a.bluebutton_witharrow:focus, .video .video-wrapper .video-controls .menu-row.btn-group > button[data-triggers="toogle"]:focus, .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group > button:focus, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group > button:focus, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group > button:focus, .btn-group > .btn:active, .content .btn-group > a.bluebutton_witharrow:active, .video .video-wrapper .video-controls .menu-row.btn-group > button[data-triggers="toogle"]:active, .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group > button:active, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group > button:active, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group > button:active, .btn-group > .btn.active, .content .btn-group > a.active.bluebutton_witharrow, .video .video-wrapper .video-controls .menu-row.btn-group > button.active[data-triggers="toogle"], .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group > button.active, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group > button.active, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group > button.active, .btn-group-vertical > .btn:hover, .content .btn-group-vertical > a.bluebutton_witharrow:hover, .video .video-wrapper .video-controls .menu-row.btn-group-vertical > button[data-triggers="toogle"]:hover, .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group-vertical > button:hover, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group-vertical > button:hover, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group-vertical > button:hover, .btn-group-vertical > .btn:focus, .content .btn-group-vertical > a.bluebutton_witharrow:focus, .video .video-wrapper .video-controls .menu-row.btn-group-vertical > button[data-triggers="toogle"]:focus, .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group-vertical > button:focus, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group-vertical > button:focus, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group-vertical > button:focus, .btn-group-vertical > .btn:active, .content .btn-group-vertical > a.bluebutton_witharrow:active, .video .video-wrapper .video-controls .menu-row.btn-group-vertical > button[data-triggers="toogle"]:active, .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group-vertical > button:active, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group-vertical > button:active, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group-vertical > button:active, .btn-group-vertical > .btn.active, .content .btn-group-vertical > a.active.bluebutton_witharrow, .video .video-wrapper .video-controls .menu-row.btn-group-vertical > button.active[data-triggers="toogle"], .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group-vertical > button.active, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group-vertical > button.active, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group-vertical > button.active {
+    z-index: 2;
+}
+.btn-group > .btn, .content .btn-group > a.bluebutton_witharrow, .video .video-wrapper .video-controls .menu-row.btn-group > button[data-triggers="toogle"], .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group > button, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group > button, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group > button, .btn-group-vertical > .btn, .content .btn-group-vertical > a.bluebutton_witharrow, .video .video-wrapper .video-controls .menu-row.btn-group-vertical > button[data-triggers="toogle"], .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group-vertical > button, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group-vertical > button, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group-vertical > button {
+    position: relative;
+    float: left;
+}
+.btn:active, .content a.bluebutton_witharrow:active, .video .video-wrapper .video-controls .menu-row > button[data-triggers="toogle"]:active, .video .video-wrapper .video-controls .menu-row > .volume-container button:active, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button > button:active, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen > button:active, .btn.active, .content a.active.bluebutton_witharrow, .video .video-wrapper .video-controls .menu-row > button.active[data-triggers="toogle"], .video .video-wrapper .video-controls .menu-row > .volume-container button.active, .video .video-wrapper .video-controls .menu-row > .box-right .captions-button > button.active, .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen > button.active {
+    outline: 0px none;
+    background-image: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.125) inset;
+}
+.btn-primary, .content a.bluebutton_witharrow, .btn-secondary {
+    border-radius: 4px;
+    min-width: 130px;
+    padding: 6px 30px;
+}
+.btn-secondary, .btn-page-secondary {
+    background: transparent linear-gradient(to top, #DCDCDC 0%, #E5E5E5 25%, #EBEBEB 50%, #F1F1F1 100%) repeat scroll 0% 0%;
+    border: 1px solid #CCC;
+    color: #006;
+    text-shadow: 0px 1px rgba(255, 255, 255, 0.4);
+}
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .content .btn-group > a.bluebutton_witharrow:first-child:not(:last-child):not(.dropdown-toggle), .video .video-wrapper .video-controls .menu-row.btn-group > button[data-triggers="toogle"]:first-child:not(:last-child):not(.dropdown-toggle), .video .video-wrapper .video-controls .menu-row > .volume-container .btn-group > button:first-child:not(:last-child):not(.dropdown-toggle), .video .video-wrapper .video-controls .menu-row > .box-right .captions-button.btn-group > button:first-child:not(:last-child):not(.dropdown-toggle), .video .video-wrapper .video-controls .menu-row > .box-right .fullscreen.btn-group > button:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.flightmanager .tab-contents .tab-pane .lhfa-flight-type label {
+    display: block;
+    float: left;
+    line-height: 18px;
+    padding-left: 0px;
+    text-align: center;
+    padding-right: 0px;
+    margin: auto;
+    width: 50%;
+}*/

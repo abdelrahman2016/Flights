@@ -1,0 +1,17 @@
+/*body{
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    color:#06033a;
+}*/
+
+table{
+	color:#06033a;
+	min-width:100%;
+
+}
+button:hover{
+  background:transparent;
+border: none;
+  }

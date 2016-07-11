@@ -1,0 +1,123 @@
+
+html {
+       box-sizing: border-box;
+      font-size: 10px;
+    font-family: sans-serif;
+}
+
+
+body{
+  /*background-size:100% 100%;*/
+    background-repeat: no-repeat;
+    background-position: -230px 55px;
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+    color:#06033a;
+     font-size: 14px;
+}
+a{
+   text-decoration:none;
+   color:#06033a;
+}
+
+.navli:hover
+{
+
+
+    background: rgba(5, 14, 55,0.5);
+  
+ }
+button:hover{
+/*  background:rgba(54, 33, 1, 0.32);
+*/  
+
+background:rgba(13, 8, 1, 0.53);
+  
+
+}
+/*span{
+  
+    color: white;
+}*/
+
+.nav{
+background-color:#ffb429;
+height:85px;
+margin-top: -16px;
+position: fixed;
+bottom: 1;
+width:100%;
+
+}
+#main{
+position:absolute;
+top:80px;
+ z-index: -1;
+}
+
+#logo{
+width:150px;
+height:58px;
+
+}
+.navli {
+    display: inline;
+    border: 2px solid #000000;
+    font-family: Futura, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px 5px;
+    background-color: #ffb429;
+}
+
+
+body {
+ 
+}
+button,input{
+color:#06033a;
+
+
+}
+
+
+center{
+   /* background-color:transparent;
+   */background-color: #ffffff;
+    height: 330px;
+    width: 200px;
+    /*margin:100px 100px 100px 100px;
+    */
+    margin-left:390px;
+    margin-top:5px;
+}
+#term{
+
+    margin-left: 5px;
+}
+
+
+
+/*searchFlightsCSS ^^^^^^^^^^^^
+*/
+#search{
+
+margin: 0px 0px 0px 10px;
+
+}
+#search:hover{
+  background:transparent;
+border: none;
+  }
+  textarea{
+resize: none;
+  margin: 0px 0px -9px 0px;
+
+}
+
+/*termsCSS^^^^^^^^^^^^^
+*/
+/*.terms{
+
+border-top: 1px solid #000000;
+}*/

@@ -1,0 +1,109 @@
+/*body{
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    color:#06033a;
+}*/
+button{
+color:#06033a;
+margin: 0px 0px 0px 10px;
+width: 100px;
+/*background-color: Transparent;*/
+height: 50px;
+
+
+}
+h5{
+	display: inline-block;
+}
+button:hover{
+  background:transparent;
+border: none;
+  }
+
+/*#cardNo{
+	margin-left:22px;
+}*/
+#mail{
+margin-left:37px;
+
+}
+
+
+.firstdiv,#firstH,#lastH{
+	display: inline-block;
+}
+#first{
+	display: inline-block;
+
+	margin-left:5px;
+}
+
+
+.lastdiv{
+	display:inline-block;
+	margin-left: 100px;	
+}
+#last{
+
+	margin-left:8px;
+}
+
+
+.carddiv,#cardNoH,#cardNo{
+	display:inline-block;
+}
+
+.cvcdiv,#cvcH{
+	display: inline-block;
+}
+
+.cvcdiv{
+margin-left: 83px;
+
+}
+.issuedatediv,#issuedateH{
+	display: inline-block;
+}
+
+#issuedate{
+	display: inline-block;
+	margin-left:10px;
+}
+	
+.expirydatediv,#expirydateH{
+	display:inline-block;
+}
+.expirydatediv{
+	margin-left: 100px;
+}
+.cardType,.country{
+	display: inline-block;
+}
+.country{
+	margin-left: 120px;
+}
+
+
+
+.citydiv,#cityH,#city,.postaldiv,#postalH{
+	display: inline-block;
+}
+.postaldiv{
+	margin-left: 170px
+}
+
+.addressdiv,#addressH,#address,.maildiv,#mailH{
+	display: inline-block;
+}
+.maildiv{
+margin-left: 135px;
+
+}
+/*.mail{
+	display: inline-block;
+}*/
+/*.maildiv{
+	display:block;
+}*/
